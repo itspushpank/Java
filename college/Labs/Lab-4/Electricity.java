@@ -46,3 +46,8 @@ class Commercial implements ElectricityBill{
     }
 }
 
+
+
+
+// saving git hub stric ngl 😭
+
