@@ -15,7 +15,7 @@ class DomesticConnection extends ElectricityConnection {
         } else {
             bill = 125 * 10 + (units - 125) * 15;
         }
-        System.out.println("Domestic Connection Bill: ₹" + bill + " (Units consumed: " + units + ")");
+        System.out.println("Domestic Connection Bill: " + bill + " (Units consumed: " + units + ")");
     }
 }
 
@@ -30,7 +30,7 @@ class CommercialConnection extends ElectricityConnection {
         } else {
             bill = 100 * 20 + (units - 100) * 25;
         }
-        System.out.println("Commercial Connection Bill: ₹" + bill + " (Units consumed: " + units + ")");
+        System.out.println("Commercial Connection Bill: " + bill + " (Units consumed: " + units + ")");
     }
 }
 
